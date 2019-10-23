@@ -1,0 +1,57 @@
+{
+  "name": "hsey-host-family-recruitment",
+  "version": "1.0.0",
+  "description": "Marketing website for the recruitment of host families",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node utils/server.js",
+    "build": "next build",
+    "test": "jest",
+    "test:watch": "jest — watch",
+    "test:coverage": "jest — coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ILC-Technology/HSEY-Host-Family-Recruitment.git"
+  },
+  "author": "David Pascoal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ILC-Technology/HSEY-Host-Family-Recruitment/issues"
+  },
+  "homepage": "https://github.com/ILC-Technology/HSEY-Host-Family-Recruitment#readme",
+  "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.17",
+    "@emotion/core": "^10.0.21",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "latest",
+    "next-routes": "^1.4.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.1.2",
+    "@testing-library/react": "^9.3.0",
+    "@types/enzyme": "^3.10.3",
+    "@types/jest": "^24.0.19",
+    "@types/node": "^12.7.8",
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.1",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.19.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}
