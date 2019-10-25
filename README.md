@@ -1,12 +1,4 @@
-# HSEY Host Families Recruitment
-
-## To configure environment tokens
-
-Create a file named .env and add the following variables
-
-```
-storyblokSpaceToken="***"
-```
+# Next JS Starter Pack with Typescript + Jest
 
 ## To run development
 
